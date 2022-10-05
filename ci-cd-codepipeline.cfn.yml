@@ -14,13 +14,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
 
-  jwtSecret:
-    Type: String
-    Description: The ultimate secret of my app
-    Default: abc123abc1234
-    MinLength: 1
-    MaxLength: 100
-    ConstraintDescription: This secret is essential
+  
 
   GitSourceRepo:
     Type: String
